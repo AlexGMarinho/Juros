@@ -8,7 +8,7 @@ let valor_divida = readlineSync.question(`Informe o valor devido: R$ `);
 valor_divida = Number(valor_divida);
 
 if (valor_divida > 0) {
-    let dias_vencimento = readlineSync.question(`Informe quantos dias_vencimento_vencimento se passaram desde o vencimento do boleto: `);
+    let dias_vencimento = readlineSync.question(`Informe quantos dias se passaram desde o vencimento do boleto: `);
 
     if (dias_vencimento > 0) {
         if (dias_vencimento > 15) {
